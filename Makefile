@@ -2,7 +2,7 @@ install:
 	npm ci
 lint:
 	npx eslint .
-start-event:
-	node bin/brain-event.js
+start:
+	node bin/brain-start.js
 publish:
 	npm publish --dry-run

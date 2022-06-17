@@ -1,9 +1,10 @@
 env:
-  browser: true
-  es2021: true
+    browser: true
+    es2021: true
 extends:
-  - airbnb-base/legacy
+    - airbnb-base/legacy
+    - prettier
 parserOptions:
-  ecmaVersion: latest
-  sourceType: module
-rules: {no-console: 0}
+    ecmaVersion: latest
+    sourceType: module
+rules: { no-console: 0, indent: ['error', 4] }
