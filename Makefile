@@ -6,3 +6,5 @@ start:
 	node bin/brain-start.js
 publish:
 	npm publish --dry-run
+link:
+	sudo npm link

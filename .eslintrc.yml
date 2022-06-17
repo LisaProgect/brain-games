@@ -7,4 +7,4 @@ extends:
 parserOptions:
     ecmaVersion: latest
     sourceType: module
-rules: { no-console: 0, indent: ['error', 4] }
+rules: { no-console: 0, indent: ['error', 4, { 'SwitchCase': 1 }] }
