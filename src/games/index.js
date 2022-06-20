@@ -24,7 +24,7 @@ const chooseGame = (gameNames) => {
 };
 
 const getGameNames = (filesNames) =>
-    filesNames.map((fileName) => path.basename(fileName));
+    filesNames.map((fileName) => path.basename(fileName, '.js'));
 
 export default () => {
     const filesNames = getFileNamesCurrDir();
@@ -32,5 +32,5 @@ export default () => {
     const pathForImport = `./${filesNames[chooseGame(gameNames)]}`;
     import(pathForImport)
         .then((game) => game.default())
-        .catch((err) => console.log(err));
+        .catch(() => console.log('Game not found!'));
 };
