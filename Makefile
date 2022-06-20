@@ -8,3 +8,5 @@ publish:
 	npm publish --dry-run
 link:
 	sudo npm link
+unlink:
+	sudo npm unlink
