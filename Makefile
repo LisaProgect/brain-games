@@ -10,3 +10,5 @@ link:
 	sudo npm link
 unlink:
 	sudo npm unlink
+uninstall:
+	sudo npm uninstall -g brain-start
