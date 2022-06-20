@@ -13,9 +13,9 @@ const getProgression = (
     counter === length
         ? acc
         : getProgression(start, step, length, counter + 1, [
-              ...acc,
-              start + counter * step,
-          ]);
+            ...acc,
+            start + counter * step,
+        ]);
 
 const getRoundData = () => {
     const start = getRandomNumber(1, 10);
