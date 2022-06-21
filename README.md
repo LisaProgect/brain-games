@@ -37,3 +37,5 @@ brain-start
 ```
 
 Choose the game and start.
+
+<a href="https://asciinema.org/a/f0PDd9tyRm5tbdjbt5eeW5WXO?autoplay=1&loop=1&speed=2&theme=tango"><img src="https://asciinema.org/a/f0PDd9tyRm5tbdjbt5eeW5WXO.png" width="836"/></a>
